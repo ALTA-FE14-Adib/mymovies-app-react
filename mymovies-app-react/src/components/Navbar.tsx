@@ -13,7 +13,9 @@ export default class Navbar extends Component {
               </a>
             </li>
             <li className="btn btn-ghost normal-case hover:bg-gray-900 hover:rounded-md w-20">
-              <a href="#">Favorite</a>
+              <a href="#" className="hover:bg-gray-900">
+                Favorite
+              </a>
             </li>
           </ul>
         </div>

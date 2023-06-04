@@ -2,14 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn-primary{
+.btn-primary {
   background-color: #1f2937;
   border-color: #1f2937;
 }
-.btn-primary:hover{
-  background-color:#111827;
+.btn-primary:hover {
+  background-color: #111827;
   border-color: #111827;
 }
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
