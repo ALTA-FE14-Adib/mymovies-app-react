@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <footer className="footer footer-center p-4 bg-gray-800 text-gray-300">
+      <div>
+        <p>Copyright © 2023 - All right reserved by Alterra Academy</p>
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
